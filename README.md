@@ -1,4 +1,4 @@
-"# LegendsOfErador"
+"Legends Of Arador"
 Textbased adventure
-Development started on the 11st January,2018.
+Development started at the 11st January,2018.
 
