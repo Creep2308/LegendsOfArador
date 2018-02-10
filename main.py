@@ -13,7 +13,7 @@ print("[1]Start")
 print("")
 print("[2]Laden")
 print("")
-print("[3]Credits")
+print("[3]Creditss")
 print("")
 print("[4]Beenden") 
 
