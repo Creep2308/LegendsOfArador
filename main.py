@@ -1,32 +1,22 @@
-import random
-import time
-import sys
+print("***************************\n")
+print("Wähle deine Klasse: \n")
+print("***************************\n")
 
-#Start
-print("***************************"); time.sleep(0.5)
-print("*                         *"); time.sleep(0.5)
-print("*       A R A D O R       *"); time.sleep(0.5)
-print("*                         *"); time.sleep(0.5)
-print("***************************"); time.sleep(0.5)
+#Auswahl
+print("[1]Krieger\n")
+print("[2]Magier\n")
+print("[3]Waldläufer\n")
+print("***************************\n")
 
-print("[1]Start")
-print("")
-print("[2]Laden")
-print("")
-print("[3]Creditss")
-print("")
-print("[4]Beenden") 
-
-aktion = input("> ") 
+aktion = input("> ")
 
 if "1" in aktion:
-    import A.py
+    from A1 import *
 
 elif "2" in aktion:
-    import B.py
+    from A2 import *
 
 elif "3" in aktion:
-    import C.py
+    from A3 import *
 
-elif "4" in aktion:
-    exit
+# 3 Spieldateien für jede Klasse 
