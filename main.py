@@ -1,22 +1,32 @@
-print("***************************\n")
-print("Wähle deine Klasse: \n")
-print("***************************\n")
+import random
+import time
+import scripts.Loader as Loader
 
-#Auswahl
-print("[1]Krieger\n")
-print("[2]Magier\n")
-print("[3]Waldläufer\n")
-print("***************************\n")
+#Start
+print("***************************"); time.sleep(0.5)
+print("*                         *"); time.sleep(0.5)
+print("*       A R A D O R       *"); time.sleep(0.5)
+print("*                         *"); time.sleep(0.5)
+print("***************************"); time.sleep(0.5)
 
-aktion = input("> ")
+print("[1]Start")
+print("")
+print("[2]Laden")
+print("")
+print("[3]Credits")
+print("")
+print("[4]Beenden") 
+
+aktion = input("> ") 
 
 if "1" in aktion:
-    from A1 import *
+    Loader.Load()
 
 elif "2" in aktion:
-    from A2 import *
+    pass
 
 elif "3" in aktion:
-    from A3 import *
+    pass
 
-# 3 Spieldateien für jede Klasse 
+elif "4" in aktion:
+    exit
