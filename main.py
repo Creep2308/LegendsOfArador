@@ -1,6 +1,7 @@
 import random
 import time
 import scripts.Loader as Loader
+import scripts.Credits as Creds
 
 #Start
 print("***************************"); time.sleep(0.25)
@@ -23,7 +24,7 @@ elif "2" in aktion:
     pass
 
 elif "3" in aktion:
-    pass
+    Creds.printCreds()
 
 elif "4" in aktion:
     exit
