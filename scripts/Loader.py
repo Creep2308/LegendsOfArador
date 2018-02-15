@@ -17,5 +17,4 @@ def Load():
 				break
 		else:
 			print("Something went wrong")
-
 	# 3 Spieldateien für jede Klasse 
