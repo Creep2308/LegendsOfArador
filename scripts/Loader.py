@@ -1,13 +1,14 @@
+import time
 def Load():
-	print("***************************\n")
-	print("Wähle deine Klasse: \n")
-	print("***************************\n")
+	print("***************************\n"); time.sleep(0.25)
+	print("Wähle deine Klasse: \n"); time.sleep(0.25)
+	print("***************************\n"); time.sleep(0.25)
 	
 	#Auswahl
-	print("[1]Krieger\n")
-	print("[2]Magier\n")
-	print("[3]Waldläufer\n")
-	print("***************************\n")
+	print("[1]Krieger\n"); time.sleep(0.1)
+	print("[2]Magier\n"); time.sleep(0.1)
+	print("[3]Waldläufer\n"); time.sleep(0.1)
+	print("***************************\n"); time.sleep(0.1)
 		
 	aktion = input("> ")
 	

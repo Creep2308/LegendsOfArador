@@ -3,19 +3,16 @@ import time
 import scripts.Loader as Loader
 
 #Start
-print("***************************"); time.sleep(0.5)
-print("*                         *"); time.sleep(0.5)
-print("*       A R A D O R       *"); time.sleep(0.5)
-print("*                         *"); time.sleep(0.5)
-print("***************************"); time.sleep(0.5)
+print("***************************"); time.sleep(0.25)
+print("*                         *"); time.sleep(0.25)
+print("*       A R A D O R       *"); time.sleep(0.25)
+print("*                         *"); time.sleep(0.25)
+print("***************************"); time.sleep(0.25)
 
-print("[1]Start")
-print("")
-print("[2]Laden")
-print("")
-print("[3]Credits")
-print("")
-print("[4]Beenden") 
+print("[1]Start\n"); time.sleep(0.1)
+print("[2]Laden\n"); time.sleep(0.1)
+print("[3]Credits\n"); time.sleep(0.1)
+print("[4]Beenden\n"); time.sleep(0.1)
 
 aktion = input("> ") 
 
