@@ -9,16 +9,13 @@ def Load():
 	print("[2]Magier\n"); time.sleep(0.1)
 	print("[3]Waldläufer\n"); time.sleep(0.1)
 	print("***************************\n"); time.sleep(0.1)
-		
-	aktion = input("> ")
 	
-	if "1" in aktion:
-	    return(1)
-	elif "2" in aktion:
-	    return(2)
-	elif "3" in aktion:
-	    return(3)
-	else:
-		print("Wrong input")
-	
+	while(1):
+		aktion = input("> ")
+		if aktion == "1" or aktion == "2" or aktion == "3":
+				return(aktion)
+				break
+		else:
+			print("Something went wrong")
+
 	# 3 Spieldateien für jede Klasse 
