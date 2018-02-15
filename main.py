@@ -17,14 +17,14 @@ print("[4]Beenden\n"); time.sleep(0.1)
 
 aktion = input("> ") 
 
-if "1" == aktion:
+if "1" in aktion:
     print(Loader.Load())
 
-elif "2" == aktion:
+elif "2" in aktion:
     pass
 
-elif "3" == aktion:
+elif "3" in aktion:
     Creds.printCreds()
 
-elif "4" == aktion:
+elif "4" in aktion:
     exit
