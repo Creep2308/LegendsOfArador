@@ -20,7 +20,7 @@ print("[4]Beenden")
 aktion = input("> ") 
 
 if "1" in aktion:
-    Loader.Load()
+    print(Loader.Load())
 
 elif "2" in aktion:
     pass
