@@ -17,7 +17,7 @@ def Load():
 	elif "2" in aktion:
 	    return(2)
 	elif "3" in aktion:
-	    return(3)
+		return(3)
 	else:
 		print("Wrong input")
 	
