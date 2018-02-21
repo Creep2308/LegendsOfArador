@@ -17,7 +17,7 @@ print("[4]Beenden\n"); time.sleep(0.1)
 aktion = input("> ") 
 
 if "1" in aktion:
-    print(Creator.create())
+    Creator.create()
 
 elif "2" in aktion:
     pass
