@@ -1,7 +1,9 @@
 import time
 import os
+import scripts.EscapeSeq as EscapeSeq
 
 def create():
+	EscapeSeq.Escape()
 	print("***************************\n"); time.sleep(0.25)
 	print("Choose your Class: \n"); time.sleep(0.25)
 	print("***************************\n"); time.sleep(0.25)
@@ -23,6 +25,7 @@ def create():
 			print("Something went wrong")
 	# 3 Spieldateien für jede Klasse 
 
+	EscapeSeq.Escape() 
 	print("***************************\n"); time.sleep(0.25)
 	print("Choose your Race: \n"); time.sleep(0.25)
 	print("***************************\n"); time.sleep(0.25)
@@ -44,6 +47,7 @@ def create():
 		else:
 			print("Something went wrong")
 
+	EscapeSeq.Escape() 
 	print("***************************\n"); time.sleep(0.25)
 	print("Choose your Gender: \n"); time.sleep(0.25)
 	print("***************************\n"); time.sleep(0.25)
@@ -74,6 +78,8 @@ def createCharFile(para_class, para_race, para_gender):
 			f.write("Class: "+para_class+"\n")
 			f.write("Race: "+para_race+"\n")
 			f.write("Gender: "+para_gender+"\n")
+		print("\nCharacter creation successful.\nPress any key to continue")
+		input()
 	else:
 		print("Already taken")
 		createCharFile(para_class, para_race, para_gender)

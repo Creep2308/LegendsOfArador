@@ -1,7 +1,11 @@
 import time
+import scripts.EscapeSeq as EscapeSeq
+
 def printCreds():
-    print("*** Legends of Arador ***"); time.sleep(0.1)
+    EscapeSeq.Escape()
     print("###Developed by###"); time.sleep(0.1)
     print("Luca Mathuse"); time.sleep(0.1)
-    print("and")
+    print("and"); time.sleep(0.1)
     print("Marcel Kämper"); time.sleep(0.1)
+    input()
+    EscapeSeq.Escape()
