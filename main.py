@@ -1,6 +1,7 @@
 import random
 import time
 import scripts.Creator as Creator
+import scripts.Loader as Loader
 import scripts.Credits as Creds
 import scripts.EscapeSeq as EscapeSeq
 
@@ -22,10 +23,10 @@ while 1:
         Creator.create()
 
     elif "2" in aktion:
-        pass
+        Loader.load()
 
     elif "3" in aktion:
         Creds.printCreds()
 
     elif "4" in aktion:
-        exit
+        exit()
